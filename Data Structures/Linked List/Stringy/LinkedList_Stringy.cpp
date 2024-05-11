@@ -1,3 +1,5 @@
+// using non-pointer object
+
 #include <iostream>
 using namespace std;
 

@@ -135,6 +135,19 @@ class LinkedList:
         print("Index Limit Exceeded")
         return "Index Limit Exceeded"
 
+    def reverseLinkedList(self):
+        prevNode = None
+        currentNode = self.head
+
+        while currentNode != None:
+            bufferNode = currentNode
+            currentNode = currentNode.next
+
+            bufferNode.next = prevNode
+            prevNode = bufferNode
+
+        self.head = prevNode
+
 
 myLinkList = LinkedList()
 
@@ -174,3 +187,6 @@ print(len(myLinkList))
 myLinkList.search(65)
 
 print(myLinkList[2])
+
+myLinkList.reverseLinkedList()
+print(myLinkList)
