@@ -1,0 +1,25 @@
+Tree: Tree data structure is a specialized data structure to store data in hierarchical manner. It is used to organize and store data in the computer to be used more effectively. It consists of a central node, structural nodes, and sub-nodes, which are connected via edges. We can also say that tree data structure has roots, branches, and leaves connected.
+
+check: https://www.geeksforgeeks.org/introduction-to-tree-data-structure-and-algorithm-tutorials/
+
+Binary tree: In a binary tree, each node can have a maximum of two children linked to it. Some common types of binary trees include full binary trees, complete binary trees, balanced binary trees, and degenerate or pathological binary trees.
+
+Basic Operations Of Tree Data Structure:
+   1. Create – create a tree in the data structure.
+   2. Insert − Inserts data in a tree.
+   3. Search − Searches specific data in a tree to check whether it is present or not.
+   4. Traversal:
+      a. Depth-First-Search Traversal:
+         i. Pre-order -> Root - Left - Right
+         ii. In-order -> Left - Root - Right
+         iii. Post-order -> Left - Right - Root
+
+      b. Breadth-First-Search Traversal: Level by level
+
+Properties of Tree Data Structure:
+   Number of edges: If a tree has N nodes then it will have (N-1) edges.
+   Depth of a node: The length of the path from the root to that node.
+   Height of a node: The length of the longest path from the node to a leaf node of the tree.
+   Height of the Tree: The length of the longest path from the root of the tree to a leaf node of the tree.
+   Degree of a Node: The total count of subtrees attached to that node is called the degree of the node. The degree of a leaf node must be 0. 
+   Degree of a Tree: The degree of a tree is the maximum degree of a node among all the nodes in the tree.
