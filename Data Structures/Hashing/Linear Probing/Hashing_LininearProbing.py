@@ -7,6 +7,7 @@ class Dictionary:
         self.keys = [None] * self.size
         self.data = [None] * self.size
 
+    # linear hash function
     def __hash_function(self, key):
         # hash() -> generates hash value for immutable type data
         return abs(hash(key)) % self.size
