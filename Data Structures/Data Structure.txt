@@ -1,0 +1,31 @@
+10 Most Important Data Structures For Coding Interviews
+CHECK: https://www.geeksforgeeks.org/10-most-important-data-structures-for-coding-interviews/
+
+
+Complete Introduction to the 30 Most Essential Data Structures & Algorithms
+CHECK: https://dev.to/iuliagroza/complete-introduction-to-the-30-most-essential-data-structures-algorithms-43kd
+
+
+The top data structures you should know for your next coding interview
+CHECK: https://www.freecodecamp.org/news/the-top-data-structures-you-should-know-for-your-next-coding-interview-36af0831f5e3/
+
+
+Learn Algorithms and Data Structures in Python
+CHECK: https://www.freecodecamp.org/news/learn-algorithms-and-data-structures-in-python/
+
+
+FreeCodeCamp.org: Data Structures - Full Course Using C and C++
+CHECK: https://www.youtube.com/watch?v=B31LgI4Y4DQ
+
+
+CodeWithHarry: Data Structures and Algorithms Course in Hindi - C
+CHECK: https://www.youtube.com/playlist?list=PLu0W_9lII9ahIappRPN0MCAgtOu3lQjQi
+
+
+CampusX: Data Structures and Algorithms using Python | Mega Video | DSA in Python in 1 video
+CHECK: https://www.youtube.com/watch?v=f9Aje_cN_CY
+GIT: https://github.com/campusx-official/dsa-using-python/tree/main
+
+
+Google: Data Structures & Algorithms
+CHECK: https://techdevguide.withgoogle.com/paths/data-structures-and-algorithms/?no-filter=true#sequence-2
