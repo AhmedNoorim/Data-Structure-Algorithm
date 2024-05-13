@@ -1,0 +1,69 @@
+Hashing: 
+    A Hashing is a type of linear data structure similar to arrays. It is a collection of nodes that are linked with each other. A node contains two things first is data and second is a link that connects it with another node. Assume a Hashing with four nodes and each node contains character data and a link to another node. Our first node is where head points and we can access all the elements of the Hashing using the head.
+
+CHECK: https://github.com/bradtraversy/traversy-js-challenges/blob/main/06-hash-tables-maps-sets/02-hash-table-intro/readme.md
+CHECK: https://www.geeksforgeeks.org/what-is-hashing/
+
+Hashing Operations:
+    1. Create
+    2. Insert - insert_at_hash_index(auto)
+    3. Traverse - print
+    4. Delete - delete_by_key
+    5. Search - search_by_key
+    6. Rehashing
+    7. Length
+
+Components of Hashing: 
+    Key: 
+        A Key can be anything string or integer which is fed as input in the hash function the technique that determines an index or location for storage of an item in a data structure. 
+    Hash Function: 
+        The hash function receives the input key and returns the index of an element in an array called a hash table. The index is known as the hash index.
+    Hash Table: 
+        Hash table is a data structure that maps keys to values using a special function called a hash function. Hash stores the data in an associative manner in an array where each data value has its own unique index.
+
+Time Complexity and Space Complexity for Hashing Operations:
+CHECK: https://www.geeksforgeeks.org/time-and-space-complexity-of-linked-list/
+
+    Open Addressing:
+    
+        Time Complexity:
+
+            Searching:
+                Best Case: O(1)
+                Average Case: O(1)
+                Worst Case: O(n)
+
+            Insertion:
+                Best Case: O(1)
+                Average Case: O(1)
+                Worst Case: O(n)
+
+            Deletion:
+                Best Case: O(1)
+                Average Case: O(1)
+                Worst Case: O(n)
+
+        Space Complexity:
+            O(n) in all cases of open addressing, where every element stored in the table must have associated memory.
+
+    Closed Addressing (Chaining):
+
+        Time Complexity:
+        
+            Searching:
+                Best Case: O(1)
+                Average Case: O(1)
+                Worst Case: O(n)        
+
+            Insertion:
+                Best Case: O(1)
+                Average Case: O(1)
+                Worst Case: O(n)
+
+            Deletion:
+                Best Case: O(1)
+                Average Case: O(1)
+                Worst Case: O(n)
+        
+        Space Complexity:
+            O(m + n) where m is the size of the hash table and n is the number of items inserted. Linked nodes are allocated memory outside the hash map.
