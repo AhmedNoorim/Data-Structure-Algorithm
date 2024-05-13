@@ -1,30 +1,29 @@
-Array: 
-    Array is a linear data structure where all elements are arranged sequentially. It is a collection of elements of same data type stored at contiguous memory locations.
-    Arrays are by default fixed size. To solve this concept of dynamic arrays is introduced.
+Stack: 
+    A Stack is a linear data structure that follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out) or FILO(First In Last Out). LIFO implies that the element that is inserted last, comes out first and FILO implies that the element that is inserted first, comes out last.
 
-CHECK: https://www.geeksforgeeks.org/array-data-structure/?ref=lbp
+CHECK: https://www.geeksforgeeks.org/python-linked-list/?ref=ml_lbp
 
-Array Operations:
+Stack Operations:
     1. Create
     2. Insert - head_insert, insert_middle(after), tail_insert(append)
     3. Traverse - print
     4. Delete - clear_list, delete_head, delete_tail(pop), delete_value, delete_index
     5. Search - search_by_value, search_by_index
-    6. Length of Array
+    6. Length of Stack
 
-Time Complexity and Space Complexity for Array Operations:
-CHECK: https://www.geeksforgeeks.org/time-and-space-complexity-of-1-d-and-2-d-array-operations/
+Time Complexity and Space Complexity for Stack Operations:
+CHECK: https://www.geeksforgeeks.org/time-and-space-complexity-of-1-d-and-2-d-Stack-operations/
 
     1. Insert Operation:
 
         Time Complexity:
             Insertion at the beginning: O(n) as it requires shifting all other elements to accommodate the new element.
             Insertion at a specific position: O(n) in the worst case as it may require shifting elements to make space for the new element.
-            Insertion at the end: O(1) on average if the array has available space; otherwise, O(n) if resizing is needed.
+            Insertion at the end: O(1) on average if the Stack has available space; otherwise, O(n) if resizing is needed.
         Space Complexity:
-            Insertion at the beginning: O(n) as it may require shifting elements and resizing the array.
+            Insertion at the beginning: O(n) as it may require shifting elements and resizing the Stack.
             Insertion at a specific position: O(1) as it does not require additional space beyond the variable to store the element.
-            Insertion at the end: O(1) if the array has available space; otherwise, O(n) if resizing is needed.
+            Insertion at the end: O(1) if the Stack has available space; otherwise, O(n) if resizing is needed.
 
     2. Delete Operation:
 
