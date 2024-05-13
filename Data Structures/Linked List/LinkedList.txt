@@ -1,0 +1,46 @@
+Linked List: 
+    A linked list is a type of linear data structure similar to arrays. It is a collection of nodes that are linked with each other. A node contains two things first is data and second is a link that connects it with another node. Below is an example of a linked list with four nodes and each node contains character data and a link to another node. Our first node is where head points and we can access all the elements of the linked list using the head.
+
+CHECK: https://www.geeksforgeeks.org/python-linked-list/?ref=ml_lbp
+
+Linked List Operations:
+    1. Create
+    2. Insert - head_insert, insert_middle(after), tail_insert(append)
+    3. Traverse - print
+    4. Delete - clear_list, delete_head, delete_tail, delete_value, delete_index
+    5. Search - search_by_value, search_by_index
+
+Time Complexity and Space Complexity for Linked List Operations:
+CHECK: https://www.geeksforgeeks.org/time-and-space-complexity-of-linked-list/
+
+    1. Insert Operation:
+
+        Time Complexity:
+            Insertion at the beginning: O(1)
+            Insertion at a specific position: O(n) in the worst case
+            Insertion at the end: O(n)
+        Space Complexity:
+            Inserting an element: O(1)
+
+    2. Delete Operation:
+
+        Time Complexity:
+            Deletion at the beginning: O(1)
+            Deletion at a specific position: O(n) in the worst case
+            Deletion at the end: O(n)
+        Space Complexity:
+            Deleting an element: O(1)
+
+    3. Read Operation:
+        
+        Time Complexity:
+            Reading an element: O(n)
+        Space Complexity:
+            Reading an element: O(1)
+
+    4. Write Operation:
+        
+        Time Complexity:
+            Writing an element: O(n) in the worst case
+        Space Complexity:
+            Writing an element: O(1)
