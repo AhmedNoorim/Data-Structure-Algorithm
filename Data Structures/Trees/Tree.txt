@@ -1,6 +1,7 @@
-Tree: Tree data structure is a specialized data structure to store data in hierarchical manner. It is used to organize and store data in the computer to be used more effectively. It consists of a central node, structural nodes, and sub-nodes, which are connected via edges. We can also say that tree data structure has roots, branches, and leaves connected.
+Tree: 
+   Tree data structure is a specialized data structure to store data in hierarchical manner. It is used to organize and store data in the computer to be used more effectively. It consists of a central node, structural nodes, and sub-nodes, which are connected via edges. We can also say that tree data structure has roots, branches, and leaves connected.
 
-check: https://www.geeksforgeeks.org/introduction-to-tree-data-structure-and-algorithm-tutorials/
+CHECK: https://www.geeksforgeeks.org/introduction-to-tree-data-structure-and-algorithm-tutorials/
 
 Binary tree: In a binary tree, each node can have a maximum of two children linked to it. Some common types of binary trees include full binary trees, complete binary trees, balanced binary trees, and degenerate or pathological binary trees.
 
@@ -23,3 +24,33 @@ Properties of Tree Data Structure:
    Height of the Tree: The length of the longest path from the root of the tree to a leaf node of the tree.
    Degree of a Node: The total count of subtrees attached to that node is called the degree of the node. The degree of a leaf node must be 0. 
    Degree of a Tree: The degree of a tree is the maximum degree of a node among all the nodes in the tree.
+
+Time Complexity and Space Complexity for Binary Search Tree (BST) Operations:
+CHECK: https://www.geeksforgeeks.org/complexity-different-operations-binary-tree-binary-search-tree-avl-tree/
+
+    1. Insert Operation:
+
+        Time Complexity:
+            Best case: O(1) when inserting the root node into an empty tree
+            Average case: O(logN) for a balanced BST
+            Worst case: O(n) for an unbalanced BST
+        Space Complexity:
+            Inserting an element: O(n) for the depth of the tree, as the maximum number of stack frames that could be present in memory is 'n'
+
+    2. Delete Operation:
+
+        Time Complexity:
+            Best case: O(1) when deleting a leaf node
+            Average case: O(logN) for a balanced BST
+            Worst case: O(n) for an unbalanced BST
+        Space Complexity:
+            Deleting an element: O(n) for the depth of the tree
+
+    3. Read Operation (Search):
+        
+        Time Complexity:
+            Best case: O(1) when the target element is at the root node
+            Average case: O(logN) for a balanced BST
+            Worst case: O(n) for an unbalanced BST
+        Space Complexity:
+            Reading an element: O(n) for the depth of the tree
