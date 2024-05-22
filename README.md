@@ -28,7 +28,8 @@ This repository contains my short notes and implementations of various data stru
 ## Algorithms
 
 -   List of algorithms covered:
-    -   Will Be Added
+    -   Linear Search
+    -   Binary Search
 
 ## References
 
