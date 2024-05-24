@@ -34,6 +34,7 @@ This repository contains my short notes and implementations of various data stru
     -   **Sort Algorithms**
         -   Insertion Sort
         -   Bubble Sort
+        -   Quick Sort
 
 ## References
 
