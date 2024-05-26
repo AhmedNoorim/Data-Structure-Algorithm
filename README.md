@@ -35,6 +35,7 @@ This repository contains my short notes and implementations of various data stru
         -   Insertion Sort
         -   Bubble Sort
         -   Quick Sort
+        -   Merge Sort
 
 ## References
 
